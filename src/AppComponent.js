@@ -9,7 +9,7 @@ function AppComponent() {
 		<div className="container">
 			<Router>
 				<Suspense fallback={<div div className="col-md-12">Loading...</div>}>
-					<h1 className="text-center" style={style}>React 001</h1>
+					<h1 className="text-center" style={style}>POC-REACT 001</h1>
 					<Switch>
 						<Route path="/" exact component={ListUserComponent} />
 						<Route path="/list-users" component={ListUserComponent} />

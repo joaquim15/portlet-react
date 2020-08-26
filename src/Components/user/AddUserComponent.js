@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
-import TextField from '@material-ui/core/TextField';
 import ApiService from '../services/ApiService';
 
 class AddUserComponent extends Component {
@@ -36,7 +34,7 @@ class AddUserComponent extends Component {
     render() {
         return (
             <div>
-                <h2 className="text-center">Adicionar</h2>
+                <h2 className="text-center">Adicionar Usuário</h2>
                 <form onSubmit={this.handleSubmit}>
                     <div className="form-group">
                         <label htmlFor="nome">Nome:</label>

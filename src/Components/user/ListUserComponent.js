@@ -64,7 +64,7 @@ class ListUserComponent extends Component {
                 </div>
                 <div>
                     <Button variant="contained" color="secondary" onClick={() => this.addUser()}>
-                        Adicionar <AddIcon />
+                        <AddIcon />
                     </Button>
                 </div>
                 <div>
