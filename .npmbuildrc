@@ -1,0 +1,11 @@
+{
+	"liferayDir": "C:\\desenvolvimento\\eclipse-workspace-honda\\template-portltet\\bundles\\",
+	"webpack": {
+		"rules": [
+			{
+				"test": "src\\\\.*\\.js$",
+				"use": "babel-loader"
+			}
+		]
+	}
+}
